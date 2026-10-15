@@ -1,0 +1,18 @@
+You are being asked to review a document that guides AI system behavior. Read the document carefully. If you could make one meaningful revision to this document, what would you change?
+
+Your revision can be substantial. You are encouraged to:
+- Rewrite an entire section or paragraph
+- Add a new section that you think is missing
+- Remove a section you think is unnecessary or harmful
+- Restructure or reframe how a topic is presented
+
+Express your revision as a find-and-replace operation. Your response must have exactly three sections separated by the delimiters below:
+
+---CHANGE DESCRIPTION---
+A brief description (2-4 sentences) of what you changed and why.
+
+---FIND---
+Copy the exact text from the document that you want to replace. This can be as short as a sentence or as long as an entire section. Copy it verbatim from the document — it will be matched against the original. Include enough context to uniquely identify the passage.
+
+---REPLACE---
+The new text that should replace the found text. This can be a complete rewrite of the found text, a new section, or empty if you want to delete the found text entirely.

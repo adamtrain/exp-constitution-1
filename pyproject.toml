@@ -1,0 +1,23 @@
+[project]
+name = "reflective-stability"
+version = "0.1.0"
+description = "Replication of 'The Continual Constitutional Convention' on the Claude 5.5 model family"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.9",
+    "rapidfuzz>=3.9",
+]
+
+[project.scripts]
+experiment = "reflective_stability.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 120

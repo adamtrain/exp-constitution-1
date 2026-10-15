@@ -1,0 +1,21 @@
+Code this edit.
+Document: {document_id} ({doc_type})
+Document owner: {owner}
+Section: {section}
+Context immediately before the edited passage:
+<<<BEFORE
+{context_before}
+BEFORE
+Original text (what was replaced):
+<<<ORIGINAL
+{find_text}
+ORIGINAL
+Changed text (what replaced it):
+<<<CHANGED
+{replace_text}
+CHANGED
+Context immediately after the edited passage:
+<<<AFTER
+{context_after}
+AFTER
+Return the JSON codes now.
